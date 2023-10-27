@@ -1,10 +1,12 @@
+@import url(../root.css);
+
 body {
-    background-color: #011212;
+    background-color: var(--bg-color);
 }
 
 .ball {
-    width: 100px;
-    height: 100px;
-    background-color: #ff8800;
-    border-radius: 50px;
+    width: var(--width-ball);
+    height: var(--height-ball);
+    background-color: var(--bg-color-ball);
+    border-radius: var(--br-ball);
 }
