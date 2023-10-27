@@ -1,0 +1,49 @@
+
+body {
+    width: 100%;
+    display: flex inline;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+#yellow {
+    width: 16.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    justify-content: left;
+    align-items: left;
+}
+
+#red {
+    width: 16.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#green {
+    width: 16.6%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#orange {
+    width: 33.3%;
+    height: 100%;
+}
+ 
+#blue {
+    width: 16.6%;
+    height: 100%;
+}
+

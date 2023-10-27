@@ -1,0 +1,108 @@
+
+body {
+    border-radius: 20px;
+}
+
+div {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    width: 280px;
+    grid-template-columns:  85px 85px 85px 85px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px;
+    grid-template-areas: 
+        "result result result result"
+        "plus mine per diviso"
+        "seven eight nine equal"
+        "four five six equal"
+        "one two three equal"
+        "zero dot AC equal";
+}
+
+.result {
+    grid-area: result;
+    padding-right: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: end; 
+    align-items: center;
+    background-color: #424c52;
+    color: white;
+}
+
+.plus {
+    grid-area: plus;
+    background-color: #d2dce3;
+}
+
+.mine {
+    grid-area: mine;
+    background-color: #d2dce3;
+}
+
+.per {
+    grid-area: per;
+    background-color: #d2dce3;
+}
+
+.diviso {
+    grid-area: diviso;
+    background-color:#d2dce3;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.six {
+    grid-area: six;
+}
+.five {
+    grid-area: five;
+}
+.four {
+    grid-area: four;
+}
+.three {
+    grid-area: three;
+}
+.two {
+    grid-area: two;
+}
+.one {
+    grid-area: one;
+}
+.zero {
+    grid-area: zero;
+}
+.dot {
+    grid-area: dot;
+}
+.AC {
+    grid-area: AC;
+}
+.equal {
+    grid-area: equal;
+    background-color: #f77077;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
