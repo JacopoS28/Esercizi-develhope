@@ -1,7 +1,7 @@
 .card {
-    border: 1px solid rgb(58, 16, 209);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1.2);
     width: 300px;
     margin: 20px;
     padding: 10px;
@@ -18,7 +18,9 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: max-content;
-    border: 1px solid black;
+    border: 1px solid rgb(198, 198, 198);
+    padding: 0;
+    margin: 0;
 }
 
 h4 {
@@ -33,7 +35,6 @@ h4 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: max-content;
-    border: 1px solid black;
 }
 
 .card-items {
@@ -42,16 +43,22 @@ h4 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: max-content;
-    border: 1px solid black;
+    margin: 0 0;
 }
 
 .card-item {
-    margin: 5px 0;
+    border: 1px solid rgb(198, 198, 198);
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-link {
-    display: inline-block;
-    margin: 5px 10px;
-    text-decoration: none;
-    color: #0072eb;
+    border: 1px solid rgb(198, 198, 198);
+    height: 40px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
