@@ -1,35 +1,69 @@
 
 body {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 300px 300px ;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: max-content max-content max-content ;
     grid-template-areas: 
         "GREEN GREEN GREEN"
         "YELLOW RED BLUE"
+        "YELLOW RED BLUE"
+        "YELLOW RED BLUE"
         "ORANGE ORANGE BLUE";
 }
 
-#GREEN {
+p {
+    font-size: large;
+    padding-left: 25px;
+}
+
+section {
+    padding: 2em;
+    margin: 1em;
+}
+
+#green {
     grid-area: GREEN;
+    background-color: #8ffda7;
 }
 
-#YELLOW {
+#yellow {
     grid-area: YELLOW;
+    background-color: #ffff92;
 }
 
-#ORANGE {
+#orange {
     grid-area: ORANGE;
+    background-color: #ffc788;
 }
 
-#RED {
+#red {
     grid-area: RED;
+    background-color: #ff919c;
 }
 
-#BLUE {
+#blue {
     grid-area: BLUE;
+    background-color: #98d2ff;
 }
  
 ul {
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+
 }
+
+li {
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+    width: 50px;
+    height: auto;
+    
+  }

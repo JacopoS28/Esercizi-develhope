@@ -5,11 +5,20 @@
     width: 300px;
     margin: 20px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content;
 }
+
+
 
 .container-title {
     text-align: center;
     color: #6aa399;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content;
+    border: 1px solid black;
 }
 
 h4 {
@@ -21,11 +30,19 @@ h4 {
 .card-title {
     font-weight: bold;
     margin: 10px 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content;
+    border: 1px solid black;
 }
 
 .card-items {
     list-style: none;
     padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content;
+    border: 1px solid black;
 }
 
 .card-item {
